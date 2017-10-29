@@ -21,7 +21,7 @@ The median is (2 + 3)/2 = 2.5
 */
 public class Median_Of_Two_Sorted_Arrays {
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-		List<Integer> list = new ArrayList();
+		List<Integer> list = new ArrayList<Integer>();
 		int num[] = new int[nums1.length+nums2.length];
 		double mid=0;
 		for(int i=0;i<Math.max(nums1.length, nums2.length);i++) {
