@@ -17,8 +17,6 @@ public class ZigZag_Conversion {
 				}else if(currRow<0) {
 					currRow+=2;
 				}
-				//System.out.println(currRow+"---");
-				//System.out.println(flag);
 				str[currRow]+=s.charAt(i);
 				if(flag) {
 					currRow++;

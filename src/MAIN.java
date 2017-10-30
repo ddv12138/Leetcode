@@ -2,7 +2,12 @@
 public class MAIN {
 
 	public static void main(String[] args) {
-		ZigZag_Conversion z = new ZigZag_Conversion();
-		System.out.println(z.convert("ABCDE", 5));
+		String_to_Integer s = new String_to_Integer();
+		try {
+			//System.out.println(Integer.MIN_VALUE+1);
+			System.out.println(s.myAtoi("-2147483647"));
+		}catch(Exception w){
+			
+		}
 	}
 }
