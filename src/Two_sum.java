@@ -19,3 +19,4 @@ public class Two_sum {
         return resualt;
     }
 }
+
