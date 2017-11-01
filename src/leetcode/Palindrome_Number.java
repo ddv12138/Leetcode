@@ -1,3 +1,4 @@
+package leetcode;
 /*
  * 此段原代码见http://www.cnblogs.com/grandyang/p/4461713.html
  * 还未完全看懂
