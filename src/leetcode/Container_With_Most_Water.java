@@ -9,7 +9,7 @@ public class Container_With_Most_Water {
 		int i = 0,j=height.length-1,s=0;
 		while(i<j) {
 			int h = Math.min(height[i], height[j]);
-			int l = j-i>0?j-i:i-j;
+			int l = j-i > 0 ? j-i : i-j;
 			if(l*h>s) {
 				s=l*h;
 			}
