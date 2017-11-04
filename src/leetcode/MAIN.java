@@ -3,7 +3,9 @@ package leetcode;
 
 public class MAIN {
 	public static void main(String[] args) {
-		Three_Sum_Closest t = new Three_Sum_Closest();
-		System.out.println(t.threeSumClosest(new int[] {1,1,1,0}, 100));
+		//Letter_Combinations_of_a_Phone_Number l = new Letter_Combinations_of_a_Phone_Number();
+		//System.out.println(l.letterCombinations("234").toString());
+		test t = new test();
+		System.out.println(t.letterCombinations("234").toString());
 	}
 }
