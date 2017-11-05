@@ -38,12 +38,19 @@ public class Letter_Combinations_of_a_Phone_Number {
 			}
 			return ans;
 		}
-		ans.addAll(combin(list));
+		String curr = "";
+		combin(list, curr, 0,ans);
 		return ans;
     }
-	private List<String> combin(List<String> s){
-		List<String> sb = new ArrayList<>();
-		
-		return sb;
+	private void combin(List<String> s,String curr,int index,List<String> ans){
+		if(index==s.size()) {
+			ans.add(curr.toString());
+			return;
+		}
+		for(int i=0;i<s.get(index).length();i++) {
+			curr+=s.get(index).charAt(i);
+			combin(s, curr, index+1,ans);
+			curr=curr.substring(0, curr.length()-1);
+		}
 	}
 }
