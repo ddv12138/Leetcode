@@ -1,7 +1,7 @@
 package leetcode;
 /*
- * ´Ë¶ÎÔ­´úÂë¼ûhttp://www.cnblogs.com/grandyang/p/4461713.html
- * »¹Î´ÍêÈ«¿´¶®
+ * ï¿½Ë¶ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½http://www.cnblogs.com/grandyang/p/4461713.html
+ * ï¿½ï¿½Î´ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½
  * */
 public class Palindrome_Number {
 	public boolean isPalindrome(int x) {

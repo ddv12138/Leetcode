@@ -1,5 +1,5 @@
 package leetcode;
-
+package leetcode;
 public class Longest_Common_Prefix {
 	public String longestCommonPrefix(String[] strs) {
 		if(strs.length==0) {

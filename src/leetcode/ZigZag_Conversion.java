@@ -1,5 +1,4 @@
 package leetcode;
-
 public class ZigZag_Conversion {
 	public String convert(String s, int numRows) {
 		String ans="";

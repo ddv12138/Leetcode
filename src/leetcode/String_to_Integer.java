@@ -1,6 +1,4 @@
 package leetcode;
-
-
 public class String_to_Integer {
 	public int myAtoi(String str) {
 		int ans=0,i=0;
