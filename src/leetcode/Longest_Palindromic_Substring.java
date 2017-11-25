@@ -1,5 +1,5 @@
 package leetcode;
-package leetcode;
+
 public class Longest_Palindromic_Substring {
 	public String longestPalindrome(String s) {
 		//List<Character> list = new ArrayList<>();
